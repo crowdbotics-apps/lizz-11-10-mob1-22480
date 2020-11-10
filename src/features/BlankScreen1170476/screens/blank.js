@@ -29,9 +29,9 @@ export default class Blank extends React.Component {
     <View>
       <Text style={styles.Text_3}>This is Screen 1</Text>
       <Button
-        title="Press me!"
+        title="This will produce an alert when pressed"
         color="#70fff5"
-        onPress={() => alert("Pressed!")}
+        onPress={() => alert("Custom Text!")}
       />
       <TouchableOpacity
         onPress={() => this.props.navigation.navigate("BlankScreen0170474")}
