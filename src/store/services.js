@@ -1,6 +1,6 @@
 import axios from "axios"
 const lizzmobAPI = axios.create({
-  baseURL: "https://lizz-11-10-mob1-22480-prod.herokuapp.com/",
+  baseURL: "https://lizz-11-10-mob1-22480.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
